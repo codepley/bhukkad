@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-full lg:w-[1210px] h-[133px] flex flex-col lg:flex-row items-center justify-center lg:justify-between py-9">
+      <div className="w-full lg:w-[1210px] flex flex-col lg:flex-row items-center justify-center gap-4 lg:justify-between py-9">
         <div>
           <img className="w-60 object-cover" src="/logo.png" alt="" />
         </div>
